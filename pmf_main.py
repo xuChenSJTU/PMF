@@ -4,7 +4,7 @@ from pmf_model import *
 
 print('PMF Recommendation Model Example')
 
-# choose dataset name and load dataset
+# choose dataset name and load dataset, 'ml-1m', 'ml-10m'
 dataset = 'ml-100k'
 processed_data_path = os.path.join(os.getcwd(), 'processed_data', dataset)
 user_id_index = pickle.load(open(os.path.join(processed_data_path, 'user_id_index.pkl'), 'rb'))
