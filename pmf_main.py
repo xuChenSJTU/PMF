@@ -1,12 +1,6 @@
 from __future__ import print_function
-import torch.utils.data
-import matplotlib.pyplot as plt
 from evaluations import *
 from pmf_model import *
-from my_utils import *
-from sklearn.cluster import KMeans
-from sklearn.manifold import TSNE
-from sklearn import svm
 
 print('PMF Recommendation Model Example')
 
